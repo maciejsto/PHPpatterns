@@ -1,0 +1,11 @@
+active_standards=ZendMine
+custom_standard_names=ZendMine
+custom_standard_paths=C\:\\xampp\\php\\pear\\PHP\\CodeSniffer\\Standards\\Zend
+debug_print_output=true
+default_tab_width=0
+eclipse.preferences.version=1
+file_extension=
+ignore_pattern=
+pear_library=<Internal>
+php_executable=XAMPP XDEBUG
+pref_ignore_sniffs=
