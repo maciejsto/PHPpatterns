@@ -11,7 +11,6 @@ class Main
 	
 	public static function init()
 	{
-		//TODO
 		$this->_service = new ServiceFree();
 		$this->_account = new Account();
 		$this->_account->addService($service);
@@ -22,7 +21,6 @@ class Main
 	
 	public static function run()
 	{
-		//TODO
 		echo $this->_accountVisitor->calcMonthlyCostBalanceForAccount();
 	}
 	
