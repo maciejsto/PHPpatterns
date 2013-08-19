@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reps/phpproject/!svn/ver/230/Refraftoring/BadCode/CalcFeeService
+END
+Account.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reps/phpproject/!svn/ver/226/Refraftoring/BadCode/CalcFeeService/Account.php
+END
+CalculateService.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/reps/phpproject/!svn/ver/226/Refraftoring/BadCode/CalcFeeService/CalculateService.php
+END
+Service.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reps/phpproject/!svn/ver/230/Refraftoring/BadCode/CalcFeeService/Service.php
+END

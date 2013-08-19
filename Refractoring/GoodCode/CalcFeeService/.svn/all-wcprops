@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService
+END
+Main.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService/Main.php
+END
+accountInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService/accountInterface.php
+END
+Account.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService/Account.php
+END
+AccountVisitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService/AccountVisitor.php
+END
+Service.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/reps/phpproject/!svn/ver/229/Refraftoring/GoodCode/CalcFeeService/Service.php
+END
