@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="Refractoring/BadCode/CalcFeeService"/>
+	<buildpathentry kind="src" path="Refractoring/GoodCode/CalcFeeService"/>
+	<buildpathentry kind="src" path="Refractoring/GoodCode/tests"/>
+	<buildpathentry kind="src" path="Refractoring/GoodCode/vendor"/>
+	<buildpathentry kind="src" path="TDD"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
