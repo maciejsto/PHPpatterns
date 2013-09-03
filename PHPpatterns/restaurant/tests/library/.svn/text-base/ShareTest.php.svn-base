@@ -1,0 +1,52 @@
+<?php
+
+require_once 'C:\xampp\htdocs\MyFramework\library\shared.php';
+
+class sharedTest extends PHPUnit_Framework_TestCase
+{
+	
+	public function valueProvider()
+	{
+		return array(
+				
+				array(array(
+						'dataset1'=>'any\string',
+						'dataset2'=>'some\other\string')),
+// 				array('dataset3'=>
+// 					array(
+// 						1=>'/string1/',
+// 						2=>'/string2/'))
+				);	
+	}
+	/**
+	 * @dataProvider valueProvider
+	 * @param unknown_type $value
+	 */
+	public function testStripSlashesDeep ($value)
+	{
+		$result=stripSlashesDeep($value['dataset1']);
+		$this->assertEquals('anystring',$result);
+		
+		$result2=stripSlashesDeep($value['dataset2']);
+		
+		$this->assertEquals('someotherstring', $result2);
+		
+		$this->assertTrue(is_array($value));
+		$result3=stripSlashesDeep($value);
+		
+		
+	}
+	
+	public function testUnregisterGlobals(){
+		$_GET['name']='Maciek';
+		print_r($_GET);
+// 		print_r($GLOBALS['_GET']);
+		unregisterGlobals();
+		print_r($GLOBALS['_GET']);
+// 		foreach ($GLOBALS['_GET'] as $key => $value) {
+			
+// 		}
+		
+	}
+	
+}

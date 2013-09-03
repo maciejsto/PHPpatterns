@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/reps/phpproject/!svn/ver/114/MyFramework/tests
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/reps/phpproject/!svn/ver/116/MyFramework/tests/phpunit.xml
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/reps/phpproject/!svn/ver/265/MyFramework/tests/composer.json
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/reps/phpproject/!svn/ver/114/MyFramework/tests/bootstrap.php
+END
