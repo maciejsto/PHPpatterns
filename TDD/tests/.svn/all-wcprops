@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/reps/phpproject/!svn/ver/50/TDD/tests
+END
+testHTMLtags.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/reps/phpproject/!svn/ver/43/TDD/tests/testHTMLtags.php
+END
+testDBclass.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/reps/phpproject/!svn/ver/50/TDD/tests/testDBclass.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/reps/phpproject/!svn/ver/50/TDD/tests/phpunit.xml
+END
+testInheretance.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/reps/phpproject/!svn/ver/36/TDD/tests/testInheretance.php
+END
+auxTests.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reps/phpproject/!svn/ver/43/TDD/tests/auxTests.php
+END
+testSqlModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/reps/phpproject/!svn/ver/46/TDD/tests/testSqlModel.php
+END
+testMyNamespace.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/reps/phpproject/!svn/ver/50/TDD/tests/testMyNamespace.php
+END
+testCart2.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/reps/phpproject/!svn/ver/36/TDD/tests/testCart2.php
+END
+testCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reps/phpproject/!svn/ver/15/TDD/tests/testCard.php
+END
+testCart.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reps/phpproject/!svn/ver/31/TDD/tests/testCart.php
+END
+testDbClassMock.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/reps/phpproject/!svn/ver/46/TDD/tests/testDbClassMock.php
+END
+testConfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/reps/phpproject/!svn/ver/27/TDD/tests/testConfig.php
+END
