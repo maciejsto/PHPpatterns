@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>phpDocumentor Parser Errors and Warnings</title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#MathTreeTest.php">MathTreeTest.php</a><br>
+<a href="#NodeTest.php">NodeTest.php</a><br>
+<a href="#OperationTest.php">OperationTest.php</a><br>
+<a href="#PrintableTest.php">PrintableTest.php</a><br>
+<a href="#RecursiveIteratorTest.php">RecursiveIteratorTest.php</a><br>
+<a href="#StrategyTest.php">StrategyTest.php</a><br>
+<a href="#Strategy_AddTest.php">Strategy_AddTest.php</a><br>
+<a href="#Strategy_MulTest.php">Strategy_MulTest.php</a><br>
+<a href="#TreeElementTest.php">TreeElementTest.php</a><br>
+<a name="Post-parsing"></a>
+<h1>Post-parsing</h1>
+<h2>Warnings:</h2><br>
+<b>Warning</b> - Class StrategyTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class TreeIteratorTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class NodeTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class NodeTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class TreeIteratorTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class NodeTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class OperationTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - 
+duplicate class element "TreeIteratorTest" in file C:\xampp\htdocs\ChristmasTree\TreeTests\RecursiveIteratorTest.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - Class TreeElementTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - 
+duplicate class element "NodeTest" in file C:\xampp\htdocs\ChristmasTree\TreeTests\NodeTest.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate class element "NodeTest" in file C:\xampp\htdocs\ChristmasTree\TreeTests\PrintableTest.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "PATH" in file C:\xampp\htdocs\ChristmasTree\TreeTests\Strategy_MulTest.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - Class Strategy_MulTest parent PHPUnit_Framework_TestCase not found<br>
+<b>Warning</b> - Class Strategy_AddTest parent PHPUnit_Framework_TestCase not found<br>
+<a name="IteratorTest.php"></a>
+<h1>IteratorTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class TreeIteratorTest<br>
+<b>Warning on line 190</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\IteratorTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="MathTreeTest.php"></a>
+<h1>MathTreeTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class NodeTest<br>
+<b>Warning on line 40</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 180</b> - Unknown tag "@node" used<br>
+<b>Warning on line 192</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 341</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 394</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\MathTreeTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="NodeTest.php"></a>
+<h1>NodeTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class NodeTest<br>
+<b>Warning on line 39</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 73</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\NodeTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="OperationTest.php"></a>
+<h1>OperationTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 3</b> - no @package tag was used in a DocBlock for class OperationTest<br>
+<b>Warning on line 25</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\OperationTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="PrintableTest.php"></a>
+<h1>PrintableTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 4</b> - no @package tag was used in a DocBlock for class NodeTest<br>
+<b>Warning on line 28</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 32</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\PrintableTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="RecursiveIteratorTest.php"></a>
+<h1>RecursiveIteratorTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - no @package tag was used in a DocBlock for class TreeIteratorTest<br>
+<b>Warning on line 34</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\RecursiveIteratorTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="StrategyTest.php"></a>
+<h1>StrategyTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class StrategyTest<br>
+<b>Warning on line 52</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\StrategyTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Strategy_AddTest.php"></a>
+<h1>Strategy_AddTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - no @package tag was used in a DocBlock for class Strategy_AddTest<br>
+<b>Warning on line 33</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 48</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\Strategy_AddTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="Strategy_MulTest.php"></a>
+<h1>Strategy_MulTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 6</b> - no @package tag was used in a DocBlock for class Strategy_MulTest<br>
+<b>Warning on line 35</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 50</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\Strategy_MulTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="TreeElementTest.php"></a>
+<h1>TreeElementTest.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 5</b> - no @package tag was used in a DocBlock for class TreeElementTest<br>
+<b>Warning on line 26</b> - Unknown tag "@dataProvider" used<br>
+<b>Warning on line 38</b> - File "C:\xampp\htdocs\ChristmasTree\TreeTests\TreeElementTest.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+	<p class="notes" id="credit">
+		Documentation generated on Thu, 24 Jan 2013 16:32:44 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</body>
+</html>

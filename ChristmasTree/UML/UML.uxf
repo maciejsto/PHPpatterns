@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="11.5.1">
+  <zoom_level>3</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>192</x>
+      <y>546</y>
+      <w>72</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>object: ConcreteOperation :: Node
+--
+fields:
+-operationResult;
+-operationType;
+-inhereted from abstract class;
+--
+methods:
++getOperationResult():int;
++setOperationResult(result):void;
++getOperationType():string;
++setOperationType(operation):void;
+
+
+ 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>279</x>
+      <y>363</y>
+      <w>99</w>
+      <h>111</h>
+    </coordinates>
+    <panel_attributes>/Class : Tree/
+--
+fields:
+-root;
+-nodes=array();
+-nodeCount;
+-strategy;
+-iterator;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount():int;
++getNode(nodeID):TreeElement object;
++setChild(childID):void;
++setParent(parentID):void;
++getTree():array(of TreeElements);
++getChildren(nodeID):array(of int));
++fetchChildrenObjects(parentID):array(Node objects);
++getParent(nodeID):int(parent id);
++getValue(node id):int;
++addNode(parent id,Node object):int(node reference);
++removeNode(node id):int (node count);
++changeNodeType(old node id,new Node object):bool;
++calculate():int (result);
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>132</x>
+      <y>492</y>
+      <w>87</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>object: ConcreteNode:: Node
+--
+fields:
+-extended from abstract class;
+
+--
+methods:
+__constructor(value,id):Node object;
+__desctuctor();
+
+all other methods inhereted form abstract class;
+
+
+
+ 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>165</x>
+      <y>327</y>
+      <w>69</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Node interface&gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>192</x>
+      <y>327</y>
+      <w>14</w>
+      <h>38</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>9;9;9;33</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>156</x>
+      <y>360</y>
+      <w>78</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>/AbstractClass : Tree Element/
+--
+fields:
+-id;
+-children;
+-parent;
+-value;
+
+--
+methods:
++getId():int;
++setId($id):void;
++getValue():int;
++setValue(value):void;
++getChildren():array of children references;
++setChild(node id):void;
++anyChildren():int number of childrens;
++getParent():int reference;
++setParent(parent id):void;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>225</x>
+      <y>357</y>
+      <w>59</w>
+      <h>23</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>54;9;36;9;36;18;9;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>309</x>
+      <y>327</y>
+      <w>69</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Tree interface&gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>336</x>
+      <y>327</y>
+      <w>14</w>
+      <h>41</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>9;9;9;36</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>450</x>
+      <y>300</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : ReverseTreeIterator/
+--
+fields:
+Tree _tree;
+//_root;
+//_nodes=array();
+//_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>618</x>
+      <y>300</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : ConcreteOperationIterator/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>537</x>
+      <y>300</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : ConcretNodeIterator/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>519</x>
+      <y>249</y>
+      <w>69</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Iterator interface&gt;&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>474</x>
+      <y>249</y>
+      <w>83</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>78;9;78;21;9;21;9;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>153</x>
+      <y>432</y>
+      <w>47</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>42;9;42;36;9;36;9;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>186</x>
+      <y>459</y>
+      <w>50</w>
+      <h>92</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>45;87;45;9;9;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>546</x>
+      <y>249</y>
+      <w>29</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>9;9;9;21;24;21;24;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>567</x>
+      <y>249</y>
+      <w>92</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>9;9;9;21;87;21;87;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>369</x>
+      <y>345</y>
+      <w>119</w>
+      <h>26</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>9;21;114;21;114;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>369</x>
+      <y>345</y>
+      <w>206</w>
+      <h>26</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>9;21;201;21;201;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>369</x>
+      <y>345</y>
+      <w>293</w>
+      <h>26</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>9;21;288;21;288;9</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>249</x>
+      <y>384</y>
+      <w>302</w>
+      <h>131</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;9;9;9;9;126;234;126;234;60;297;60;297;75</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>471</x>
+      <y>555</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : Sub_Strategy/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>555</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : Add_Strategy/
+--
+fields:
+
+--
+methods:
++doOperation():int;
++showResult():int;
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>555</x>
+      <y>555</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : Div_Strategy/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>633</x>
+      <y>555</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : Mul_Strategy/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>513</x>
+      <y>459</y>
+      <w>69</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/Class : ConcreteOperationIterator/
+--
+fields:
+Tree _tree;
+_root;
+_nodes=array();
+_nodeCount;
+--
+methods:
++addNode(Node $parent_node,Node $node_in);
++getNodeCount();
++getNode($uid);
++setChild();
++setParent();
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>414</x>
+      <y>504</y>
+      <w>107</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>102;9;102;33;9;33;9;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>567</x>
+      <y>504</y>
+      <w>113</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>9;9;9;33;108;33;108;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>552</x>
+      <y>504</y>
+      <w>14</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>9;9;9;51</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>516</x>
+      <y>504</y>
+      <w>14</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>9;9;9;51</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/examples/starship
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/examples/starship/phpunit.xml
+END
+Bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/examples/starship/Bootstrap.php
+END
+Starship.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/examples/starship/Starship.php
+END
+StarshipTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/examples/starship/StarshipTest.php
+END

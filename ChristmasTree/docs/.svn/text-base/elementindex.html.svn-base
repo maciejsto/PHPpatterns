@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+						<a name="top"></a>
+<h2>Full index</h2>
+<h3>Package indexes</h3>
+<ul>
+	<li><a href="elementindex_default.html">default</a></li>
+</ul>
+<br />
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex.html#a">a</a>
+	<a class="index-letter" href="elementindex.html#b">b</a>
+	<a class="index-letter" href="elementindex.html#c">c</a>
+	<a class="index-letter" href="elementindex.html#d">d</a>
+	<a class="index-letter" href="elementindex.html#g">g</a>
+	<a class="index-letter" href="elementindex.html#h">h</a>
+	<a class="index-letter" href="elementindex.html#i">i</a>
+	<a class="index-letter" href="elementindex.html#m">m</a>
+	<a class="index-letter" href="elementindex.html#n">n</a>
+	<a class="index-letter" href="elementindex.html#p">p</a>
+	<a class="index-letter" href="elementindex.html#r">r</a>
+	<a class="index-letter" href="elementindex.html#s">s</a>
+	<a class="index-letter" href="elementindex.html#t">t</a>
+	<a class="index-letter" href="elementindex.html#_">_</a>
+</div>
+
+	<a name="a"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">a</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">add</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathOperationInterface.html#methodadd">MathOperationInterface::add()</a> in MathOperationInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">addNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeInterface.html#methodaddNode">TreeInterface::addNode()</a> in TreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">addNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#methodaddNode">MathTree::addNode()</a> in MathTree.php</div>
+					</dd>
+		</dl>
+	<a name="b"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">b</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="var-title">$backupGlobalsBlacklist</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecoratorTest.html#var$backupGlobalsBlacklist">TreeDecoratorTest::$backupGlobalsBlacklist</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$backupGlobalsBlacklist</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html#var$backupGlobalsBlacklist">ChristmasTreeTest::$backupGlobalsBlacklist</a> in ChristmasTreeTest.php</div>
+					</dd>
+		</dl>
+	<a name="c"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">c</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">calculate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeInterface.html#methodcalculate">TreeInterface::calculate()</a> in TreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">calculate</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#methodcalculate">MathTree::calculate()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						ChristmassTreeWithLigths
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmassTreeWithLigths.html">ChristmassTreeWithLigths</a> in ChristmassTreeWithLigths.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">ChristmassTreeWithLigths.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_ChristmassTreeWithLigths.php.html">ChristmassTreeWithLigths.php</a> in ChristmassTreeWithLigths.php</div>
+					</dd>
+			<dt class="field">
+						ChristmasTree
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTree.html">ChristmasTree</a> in ChristmasTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">ChristmasTree.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_ChristmasTree.php.html">ChristmasTree.php</a> in ChristmasTree.php</div>
+					</dd>
+			<dt class="field">
+						ChristmasTreeInterface
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeInterface.html">ChristmasTreeInterface</a> in ChristmasTreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						ChristmasTreeTest
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html">ChristmasTreeTest</a> in ChristmasTreeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">ChristmasTreeWithStars.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_ChristmasTreeWithStars.php.html">ChristmasTreeWithStars.php</a> in ChristmasTreeWithStars.php</div>
+					</dd>
+			<dt class="field">
+						ChrustmasTreeWithStars
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChrustmasTreeWithStars.html">ChrustmasTreeWithStars</a> in ChristmasTreeWithStars.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">ChristmasTreeInterface.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_interfaces---ChristmasTreeInterface.php.html">ChristmasTreeInterface.php</a> in ChristmasTreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">ChristmasTreeTest.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_tests---ChristmasTreeTest.php.html">ChristmasTreeTest.php</a> in ChristmasTreeTest.php</div>
+					</dd>
+		</dl>
+	<a name="d"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">d</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">divide</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathOperationInterface.html#methoddivide">MathOperationInterface::divide()</a> in MathOperationInterface.php</div>
+					</dd>
+		</dl>
+	<a name="g"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">g</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">getCurrentTreeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeIterator.html#methodgetCurrentTreeNode">TreeIterator::getCurrentTreeNode()</a> in TreeIterator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getCurrentTreeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/IteratorInterface.html#methodgetCurrentTreeNode">IteratorInterface::getCurrentTreeNode()</a> in IteratorInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmassTreeWithLigths.html#methodgetDescription">ChristmassTreeWithLigths::getDescription()</a> in ChristmassTreeWithLigths.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecorator.html#methodgetDescription">TreeDecorator::getDescription()</a> in TreeDecorator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTree.html#methodgetDescription">ChristmasTree::getDescription()</a> in ChristmasTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeInterface.html#methodgetDescription">ChristmasTreeInterface::getDescription()</a> in ChristmasTreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChrustmasTreeWithStars.html#methodgetDescription">ChrustmasTreeWithStars::getDescription()</a> in ChristmasTreeWithStars.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getDescription</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Tree.html#methodgetDescription">Tree::getDescription()</a> in Tree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getId</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#methodgetId">Node::getId()</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getId</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeInterface.html#methodgetId">NodeInterface::getId()</a> in NodeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getNextTreeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/IteratorInterface.html#methodgetNextTreeNode">IteratorInterface::getNextTreeNode()</a> in IteratorInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#methodgetNode">MathTree::getNode()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getNodeCount</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#methodgetNodeCount">MathTree::getNodeCount()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getPreviousTreeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/IteratorInterface.html#methodgetPreviousTreeNode">IteratorInterface::getPreviousTreeNode()</a> in IteratorInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getValue</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#methodgetValue">Node::getValue()</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">getValue</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeInterface.html#methodgetValue">NodeInterface::getValue()</a> in NodeInterface.php</div>
+					</dd>
+		</dl>
+	<a name="h"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">h</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">hasNextTreeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/IteratorInterface.html#methodhasNextTreeNode">IteratorInterface::hasNextTreeNode()</a> in IteratorInterface.php</div>
+					</dd>
+		</dl>
+	<a name="i"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">i</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">IteratorInterface.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_interfaces---IteratorInterface.php.html">IteratorInterface.php</a> in IteratorInterface.php</div>
+					</dd>
+			<dt class="field">
+						IteratorInterface
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/IteratorInterface.html">IteratorInterface</a> in IteratorInterface.php</div>
+					</dd>
+		</dl>
+	<a name="m"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">m</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">MathTree.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_classes---MathTree.php.html">MathTree.php</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">MathOperationInterface.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_interfaces---MathOperationInterface.php.html">MathOperationInterface.php</a> in MathOperationInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">main.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_main.php.html">main.php</a> in main.php</div>
+					</dd>
+			<dt class="field">
+						MathOperationInterface
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathOperationInterface.html">MathOperationInterface</a> in MathOperationInterface.php</div>
+					</dd>
+			<dt class="field">
+						MathTree
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html">MathTree</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">multiply</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathOperationInterface.html#methodmultiply">MathOperationInterface::multiply()</a> in MathOperationInterface.php</div>
+					</dd>
+		</dl>
+	<a name="n"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">n</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">Node.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_classes---Node.php.html">Node.php</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">NodeInterface.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_interfaces---NodeInterface.php.html">NodeInterface.php</a> in NodeInterface.php</div>
+					</dd>
+			<dt class="field">
+						Node
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html">Node</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						NodeInterface
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeInterface.html">NodeInterface</a> in NodeInterface.php</div>
+					</dd>
+			<dt class="field">
+						NodeTest
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeTest.html">NodeTest</a> in NodeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">NodeTest.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_TreeTests---NodeTest.php.html">NodeTest.php</a> in NodeTest.php</div>
+					</dd>
+		</dl>
+	<a name="p"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">p</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">provider</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html#methodprovider">ChristmasTreeTest::provider()</a> in ChristmasTreeTest.php</div>
+					</dd>
+		</dl>
+	<a name="r"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">r</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="method-title">removeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#methodremoveNode">MathTree::removeNode()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">removeNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeInterface.html#methodremoveNode">TreeInterface::removeNode()</a> in TreeInterface.php</div>
+					</dd>
+		</dl>
+	<a name="s"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">s</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">sample1.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_sample1.php.html">sample1.php</a> in sample1.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setId</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#methodsetId">Node::setId()</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setId</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeInterface.html#methodsetId">NodeInterface::setId()</a> in NodeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setUp</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecoratorTest.html#methodsetUp">TreeDecoratorTest::setUp()</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setUp</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html#methodsetUp">ChristmasTreeTest::setUp()</a> in ChristmasTreeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setUp</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeTest.html#methodsetUp">NodeTest::setUp()</a> in NodeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setValue</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/NodeInterface.html#methodsetValue">NodeInterface::setValue()</a> in NodeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">setValue</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#methodsetValue">Node::setValue()</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">substract</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathOperationInterface.html#methodsubstract">MathOperationInterface::substract()</a> in MathOperationInterface.php</div>
+					</dd>
+		</dl>
+	<a name="t"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">t</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="include-title">TreeIterator.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_classes---TreeIterator.php.html">TreeIterator.php</a> in TreeIterator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">TreeInterface.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_interfaces---TreeInterface.php.html">TreeInterface.php</a> in TreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">testFalse</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html#methodtestFalse">ChristmasTreeTest::testFalse()</a> in ChristmasTreeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">testIfChristmasTreeExists</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmasTreeTest.html#methodtestIfChristmasTreeExists">ChristmasTreeTest::testIfChristmasTreeExists()</a> in ChristmasTreeTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">testIfDecoratorExists</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecoratorTest.html#methodtestIfDecoratorExists">TreeDecoratorTest::testIfDecoratorExists()</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">testIfGetDescriptionFunctionExists</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecoratorTest.html#methodtestIfGetDescriptionFunctionExists">TreeDecoratorTest::testIfGetDescriptionFunctionExists()</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">TreeDecoratorTest.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_tests---TreeDecoratorTest.php.html">TreeDecoratorTest.php</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						Tree
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Tree.html">Tree</a> in Tree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">Tree.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_Tree.php.html">Tree.php</a> in Tree.php</div>
+					</dd>
+			<dt class="field">
+						TreeDecorator
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecorator.html">TreeDecorator</a> in TreeDecorator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="include-title">TreeDecorator.php</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/_TreeDecorator.php.html">TreeDecorator.php</a> in TreeDecorator.php</div>
+					</dd>
+			<dt class="field">
+						TreeDecoratorTest
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecoratorTest.html">TreeDecoratorTest</a> in TreeDecoratorTest.php</div>
+					</dd>
+			<dt class="field">
+						TreeInterface
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeInterface.html">TreeInterface</a> in TreeInterface.php</div>
+					</dd>
+			<dt class="field">
+						TreeIterator
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeIterator.html">TreeIterator</a> in TreeIterator.php</div>
+					</dd>
+		</dl>
+	<a name="_"></a>
+	<div class="index-letter-section">
+		<div style="float: left" class="index-letter-title">_</div>
+		<div style="float: right"><a href="#top">top</a></div>
+		<div style="clear: both"></div>
+	</div>
+	<dl>
+			<dt class="field">
+						<span class="var-title">$_currentNode</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeIterator.html#var$_currentNode">TreeIterator::$_currentNode</a> in TreeIterator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_key</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#var$_key">Node::$_key</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_left</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#var$_left">Node::$_left</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_NodeList</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeIterator.html#var$_NodeList">TreeIterator::$_NodeList</a> in TreeIterator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_parent</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#var$_parent">Node::$_parent</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_right</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#var$_right">Node::$_right</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="var-title">$_tree</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecorator.html#var$_tree">TreeDecorator::$_tree</a> in TreeDecorator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__clone</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#method__clone">MathTree::__clone()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChrustmasTreeWithStars.html#method__construct">ChrustmasTreeWithStars::__construct()</a> in ChristmasTreeWithStars.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeIterator.html#method__construct">TreeIterator::__construct()</a> in TreeIterator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/MathTree.html#method__construct">MathTree::__construct()</a> in MathTree.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/TreeDecorator.html#method__construct">TreeDecorator::__construct()</a> in TreeDecorator.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#method__construct">Node::__construct()</a> in Node.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__construct</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/ChristmassTreeWithLigths.html#method__construct">ChristmassTreeWithLigths::__construct()</a> in ChristmassTreeWithLigths.php</div>
+					</dd>
+			<dt class="field">
+						<span class="method-title">__toString</span>
+					</dt>
+		<dd class="index-item-body">
+			<div class="index-item-details"><a href="default/Node.html#method__toString">Node::__toString()</a> in Node.php</div>
+					</dd>
+		</dl>
+
+<div class="index-letter-menu">
+	<a class="index-letter" href="elementindex.html#a">a</a>
+	<a class="index-letter" href="elementindex.html#b">b</a>
+	<a class="index-letter" href="elementindex.html#c">c</a>
+	<a class="index-letter" href="elementindex.html#d">d</a>
+	<a class="index-letter" href="elementindex.html#g">g</a>
+	<a class="index-letter" href="elementindex.html#h">h</a>
+	<a class="index-letter" href="elementindex.html#i">i</a>
+	<a class="index-letter" href="elementindex.html#m">m</a>
+	<a class="index-letter" href="elementindex.html#n">n</a>
+	<a class="index-letter" href="elementindex.html#p">p</a>
+	<a class="index-letter" href="elementindex.html#r">r</a>
+	<a class="index-letter" href="elementindex.html#s">s</a>
+	<a class="index-letter" href="elementindex.html#t">t</a>
+	<a class="index-letter" href="elementindex.html#_">_</a>
+</div>	</body>
+</html>

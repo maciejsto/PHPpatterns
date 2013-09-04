@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer
+END
+autoload_real.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer/autoload_real.php
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer/ClassLoader.php
+END
+autoload_classmap.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer/autoload_classmap.php
+END
+autoload_namespaces.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer/autoload_namespaces.php
+END
+installed.json
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/composer/installed.json
+END

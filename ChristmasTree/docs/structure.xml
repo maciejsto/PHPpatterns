@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a12" title="">
+  <file path="ChristmassTreeWithLigths.php" hash="cd1db85b9b98c9c53675ae16ec53b16c" package="Default">
+    <include line="2" type="Require Once" package="Default">
+      <name>TreeDecorator.php</name>
+    </include>
+    <include line="3" type="Require Once" package="Default">
+      <name>Tree.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="5" package="Default">
+      <extends>\TreeDecorator</extends>
+      <name>ChristmassTreeWithLigths</name>
+      <full_name>\ChristmassTreeWithLigths</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="7" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="7">
+          <name>$newTree</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="12" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file ChristmassTreeWithLigths.php</error>
+      <error line="5" code="50000">No DocBlock was found for \ChristmassTreeWithLigths</error>
+      <error line="7" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="12" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="ChristmasTree.php" hash="f083fcee47f1ff03986a911da4ac64c9" package="Default">
+    <include line="4" type="Require Once" package="Default">
+      <name>ChristmasTreeInterface.php</name>
+    </include>
+    <include line="5" type="Require Once" package="Default">
+      <name>Tree.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="7" package="Default">
+      <extends>\Tree</extends>
+      <implements>\ChristmasTreeInterface</implements>
+      <name>ChristmasTree</name>
+      <full_name>\ChristmasTree</full_name>
+      <property final="false" static="false" visibility="private" line="10" namespace="global" package="Default">
+        <name>$_tip</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="11" namespace="global" package="Default">
+        <name>$_bruch</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="12" namespace="global" package="Default">
+        <name>$_trunk</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="15" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file ChristmasTree.php</error>
+      <error line="7" code="50000">No DocBlock was found for \ChristmasTree</error>
+      <error line="10" code="50018">No DocBlock was found for property $_tip</error>
+      <error line="11" code="50018">No DocBlock was found for property $_bruch</error>
+      <error line="12" code="50018">No DocBlock was found for property $_trunk</error>
+      <error line="15" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="ChristmasTreeWithStars.php" hash="a9b9cfad705b230cc384bda24f9835cd" package="Default">
+    <include line="3" type="Require Once" package="Default">
+      <name>TreeDecorator.php</name>
+    </include>
+    <include line="4" type="Require Once" package="Default">
+      <name>Tree.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="6" package="Default">
+      <extends>\TreeDecorator</extends>
+      <name>ChrustmasTreeWithStars</name>
+      <full_name>\ChrustmasTreeWithStars</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="8" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="8">
+          <name>$newTree</name>
+          <default></default>
+          <type>\ChristmasTree</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="14" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file ChristmasTreeWithStars.php</error>
+      <error line="6" code="50000">No DocBlock was found for \ChrustmasTreeWithStars</error>
+      <error line="8" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="14" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="classes\MathTree.php" hash="57fd08871ec7b07530ded386f10ce8ba" package="Default">
+    <include line="3" type="Require" package="Default">
+      <name>interface/TreeInterface.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="5" package="Default">
+      <extends/>
+      <implements>\TreeInterface</implements>
+      <name>MathTree</name>
+      <full_name>\MathTree</full_name>
+      <property final="false" static="false" visibility="private" line="7" namespace="global" package="Default">
+        <name>$_nodes</name>
+        <default>array()</default>
+      </property>
+      <property final="false" static="false" visibility="private" line="8" namespace="global" package="Default">
+        <name>$_nodeCount</name>
+        <default>0</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="10" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="11" package="Default">
+        <name>__clone</name>
+        <full_name>__clone</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="13" package="Default">
+        <name>getNodeCount</name>
+        <full_name>getNodeCount</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="private" namespace="global" line="16" package="Default">
+        <name>setNodeCount</name>
+        <full_name>setNodeCount</full_name>
+        <argument line="16">
+          <name>$newCount</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="20" package="Default">
+        <name>getNode</name>
+        <full_name>getNode</full_name>
+        <argument line="20">
+          <name>$nodeNumberToGet</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="28" package="Default">
+        <name>addNode</name>
+        <full_name>addNode</full_name>
+        <argument line="28">
+          <name>$node_in</name>
+          <default></default>
+          <type>\Node</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="32" package="Default">
+        <name>removeNode</name>
+        <full_name>removeNode</full_name>
+        <argument line="32">
+          <name>$node</name>
+          <default></default>
+          <type>\Node</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="33" package="Default">
+        <name>calculate</name>
+        <full_name>calculate</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file classes\MathTree.php</error>
+      <error line="5" code="50000">No DocBlock was found for \MathTree</error>
+      <error line="7" code="50018">No DocBlock was found for property $_nodes</error>
+      <error line="8" code="50018">No DocBlock was found for property $_nodeCount</error>
+      <error line="10" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="11" code="50010">No DocBlock was found for method __clone()</error>
+      <error line="13" code="50010">No DocBlock was found for method getNodeCount()</error>
+      <error line="16" code="50010">No DocBlock was found for method setNodeCount()</error>
+      <error line="20" code="50010">No DocBlock was found for method getNode()</error>
+      <error line="28" code="50010">No DocBlock was found for method addNode()</error>
+      <error line="32" code="50010">No DocBlock was found for method removeNode()</error>
+      <error line="33" code="50010">No DocBlock was found for method calculate()</error>
+    </parse_markers>
+  </file>
+  <file path="classes\Node.php" hash="c9cb2c0565ff79b8cb6318f7e2f24a85" package="Default">
+    <include line="3" type="Require" package="Default">
+      <name>classes/NodeInterface.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="5" package="Default">
+      <extends/>
+      <implements>\NodeInterface</implements>
+      <name>Node</name>
+      <full_name>\Node</full_name>
+      <property final="false" static="false" visibility="private" line="8" namespace="global" package="Default">
+        <name>$_value</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="9" namespace="global" package="Default">
+        <name>$_id</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="public" line="10" namespace="global" package="Default">
+        <name>$_parent</name>
+        <default>null</default>
+      </property>
+      <property final="false" static="false" visibility="public" line="11" namespace="global" package="Default">
+        <name>$_left</name>
+        <default>null</default>
+      </property>
+      <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
+        <name>$_right</name>
+        <default>null</default>
+      </property>
+      <property final="false" static="false" visibility="public" line="13" namespace="global" package="Default">
+        <name>$_key</name>
+        <default>null</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="15" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="15">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="20" package="Default">
+        <name>__toString</name>
+        <full_name>__toString</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="24" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="28" package="Default">
+        <name>setValue</name>
+        <full_name>setValue</full_name>
+        <argument line="28">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="33" package="Default">
+        <name>getId</name>
+        <full_name>getId</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="37" package="Default">
+        <name>setId</name>
+        <full_name>setId</full_name>
+        <argument line="37">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file classes\Node.php</error>
+      <error line="5" code="50000">No DocBlock was found for \Node</error>
+      <error line="8" code="50018">No DocBlock was found for property $_value</error>
+      <error line="9" code="50018">No DocBlock was found for property $_id</error>
+      <error line="10" code="50018">No DocBlock was found for property $_parent</error>
+      <error line="11" code="50018">No DocBlock was found for property $_left</error>
+      <error line="12" code="50018">No DocBlock was found for property $_right</error>
+      <error line="13" code="50018">No DocBlock was found for property $_key</error>
+      <error line="15" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="20" code="50010">No DocBlock was found for method __toString()</error>
+      <error line="24" code="50010">No DocBlock was found for method getValue()</error>
+      <error line="28" code="50010">No DocBlock was found for method setValue()</error>
+      <error line="33" code="50010">No DocBlock was found for method getId()</error>
+      <error line="37" code="50010">No DocBlock was found for method setId()</error>
+    </parse_markers>
+  </file>
+  <file path="classes\TreeIterator.php" hash="1e5dd58abcc219759c4b36b7df1bbdba" package="Default">
+    <include line="3" type="Require" package="Default">
+      <name>classes/TreeIterator.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="6" package="Default">
+      <extends/>
+      <implements>\IteratorInterface</implements>
+      <name>TreeIterator</name>
+      <full_name>\TreeIterator</full_name>
+      <property final="false" static="false" visibility="protected" line="8" namespace="global" package="Default">
+        <name>$_NodeList</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="9" namespace="global" package="Default">
+        <name>$_currentNode</name>
+        <default>0</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="11" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="11">
+          <name>$tree_in</name>
+          <default></default>
+          <type>\MathTree</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="15" package="Default">
+        <name>getCurrentTreeNode</name>
+        <full_name>getCurrentTreeNode</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file classes\TreeIterator.php</error>
+      <error line="6" code="50000">No DocBlock was found for \TreeIterator</error>
+      <error line="8" code="50018">No DocBlock was found for property $_NodeList</error>
+      <error line="9" code="50018">No DocBlock was found for property $_currentNode</error>
+      <error line="11" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="15" code="50010">No DocBlock was found for method getCurrentTreeNode()</error>
+    </parse_markers>
+  </file>
+  <file path="interfaces\ChristmasTreeInterface.php" hash="5e75a631c3245ae44b8c096e574ff16a" package="Default">
+    <interface namespace="global" line="3" package="Default">
+      <name>ChristmasTreeInterface</name>
+      <full_name>\ChristmasTreeInterface</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="5" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </interface>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file interfaces\ChristmasTreeInterface.php</error>
+      <error line="5" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="interfaces\IteratorInterface.php" hash="ac65b23b4af1c37a0b71275acfd1ef73" package="Default">
+    <interface namespace="global" line="2" package="Default">
+      <name>IteratorInterface</name>
+      <full_name>\IteratorInterface</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="4" package="Default">
+        <name>getCurrentTreeNode</name>
+        <full_name>getCurrentTreeNode</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="5" package="Default">
+        <name>getNextTreeNode</name>
+        <full_name>getNextTreeNode</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="6" package="Default">
+        <name>hasNextTreeNode</name>
+        <full_name>hasNextTreeNode</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="7" package="Default">
+        <name>getPreviousTreeNode</name>
+        <full_name>getPreviousTreeNode</full_name>
+      </method>
+    </interface>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file interfaces\IteratorInterface.php</error>
+      <error line="4" code="50010">No DocBlock was found for method getCurrentTreeNode()</error>
+      <error line="5" code="50010">No DocBlock was found for method getNextTreeNode()</error>
+      <error line="6" code="50010">No DocBlock was found for method hasNextTreeNode()</error>
+      <error line="7" code="50010">No DocBlock was found for method getPreviousTreeNode()</error>
+    </parse_markers>
+  </file>
+  <file path="interfaces\MathOperationInterface.php" hash="be628d484f2947a4fa917e886d6cebcd" package="Default">
+    <interface namespace="global" line="2" package="Default">
+      <name>MathOperationInterface</name>
+      <full_name>\MathOperationInterface</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="5" package="Default">
+        <name>add</name>
+        <full_name>add</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="6" package="Default">
+        <name>substract</name>
+        <full_name>substract</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="7" package="Default">
+        <name>multiply</name>
+        <full_name>multiply</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="8" package="Default">
+        <name>divide</name>
+        <full_name>divide</full_name>
+      </method>
+    </interface>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file interfaces\MathOperationInterface.php</error>
+      <error line="5" code="50010">No DocBlock was found for method add()</error>
+      <error line="6" code="50010">No DocBlock was found for method substract()</error>
+      <error line="7" code="50010">No DocBlock was found for method multiply()</error>
+      <error line="8" code="50010">No DocBlock was found for method divide()</error>
+    </parse_markers>
+  </file>
+  <file path="interfaces\NodeInterface.php" hash="64247ee2c1623f9d4e561615ad2611d0" package="Default">
+    <interface namespace="global" line="2" package="Default">
+      <name>NodeInterface</name>
+      <full_name>\NodeInterface</full_name>
+      <property final="false" static="false" visibility="private" line="5" namespace="global" package="Default">
+        <name>$_value</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="6" namespace="global" package="Default">
+        <name>$_id</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="10" package="Default">
+        <name>getValue</name>
+        <full_name>getValue</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="11" package="Default">
+        <name>setValue</name>
+        <full_name>setValue</full_name>
+        <argument line="11">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="12" package="Default">
+        <name>getId</name>
+        <full_name>getId</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="13" package="Default">
+        <name>setId</name>
+        <full_name>setId</full_name>
+        <argument line="13">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </interface>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file interfaces\NodeInterface.php</error>
+      <error line="5" code="50018">No DocBlock was found for property $_value</error>
+      <error line="6" code="50018">No DocBlock was found for property $_id</error>
+      <error line="10" code="50010">No DocBlock was found for method getValue()</error>
+      <error line="11" code="50010">No DocBlock was found for method setValue()</error>
+      <error line="12" code="50010">No DocBlock was found for method getId()</error>
+      <error line="13" code="50010">No DocBlock was found for method setId()</error>
+    </parse_markers>
+  </file>
+  <file path="interfaces\TreeInterface.php" hash="3ec4f1d0b423d0e69b3e794f1256871d" package="Default">
+    <interface namespace="global" line="2" package="Default">
+      <name>TreeInterface</name>
+      <full_name>\TreeInterface</full_name>
+      <property final="false" static="false" visibility="private" line="5" namespace="global" package="Default">
+        <name>$_nodes</name>
+        <default>array()</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="9" package="Default">
+        <name>addNode</name>
+        <full_name>addNode</full_name>
+        <argument line="9">
+          <name>$node</name>
+          <default></default>
+          <type>\Node</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="10" package="Default">
+        <name>removeNode</name>
+        <full_name>removeNode</full_name>
+        <argument line="10">
+          <name>$node</name>
+          <default></default>
+          <type>\Node</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="11" package="Default">
+        <name>calculate</name>
+        <full_name>calculate</full_name>
+      </method>
+    </interface>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file interfaces\TreeInterface.php</error>
+      <error line="5" code="50018">No DocBlock was found for property $_nodes</error>
+      <error line="9" code="50010">No DocBlock was found for method addNode()</error>
+      <error line="10" code="50010">No DocBlock was found for method removeNode()</error>
+      <error line="11" code="50010">No DocBlock was found for method calculate()</error>
+    </parse_markers>
+  </file>
+  <file path="main.php" hash="e76a96b058c3995a9b5652de6f0e1902" package="Default">
+    <include line="3" type="Require Once" package="Default">
+      <name>ChristmasTree.php</name>
+    </include>
+    <include line="4" type="Require Once" package="Default">
+      <name>TreeDecorator.php</name>
+    </include>
+    <include line="5" type="Require Once" package="Default">
+      <name>ChristmassTreeWithLigths.php</name>
+    </include>
+    <include line="6" type="Require Once" package="Default">
+      <name>ChristmasTreeWithStars.php</name>
+    </include>
+    <include line="7" type="Require Once" package="Default">
+      <name>Tree.php</name>
+    </include>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file main.php</error>
+    </parse_markers>
+  </file>
+  <file path="sample1.php" hash="f84214fc43f665c79b92dc7a092b364f" package="Default">
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file sample1.php</error>
+    </parse_markers>
+  </file>
+  <file path="tests\ChristmasTreeTest.php" hash="75dfccd85af417987ff485ea9195441b" package="Default">
+    <include line="3" type="Require Once" package="Default">
+      <name>C:\xampp\htdocs\ChristmasTree\ChristmasTree.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="9" package="Default">
+      <extends>\PHPUnit_Framework_TestCase</extends>
+      <name>ChristmasTreeTest</name>
+      <full_name>\ChristmasTreeTest</full_name>
+      <docblock line="6">
+        <description></description>
+        <long-description></long-description>
+        <tag line="6" name="backupGlobals" description="disabled"/>
+      </docblock>
+      <property final="false" static="false" visibility="protected" line="13" namespace="global" package="Default">
+        <name>$backupGlobalsBlacklist</name>
+        <default>array('_CONSOLE_COLOR_CODES', '_ENV', '_POST', '_GET', '_COOKIE', '_SERVER', '_FILES', '_REQUEST')</default>
+      </property>
+      <property final="false" static="false" visibility="private" line="25" namespace="global" package="Default">
+        <name>$_christmasTree</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="27" package="Default">
+        <name>setUp</name>
+        <full_name>setUp</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="33" package="Default">
+        <name>testIfChristmasTreeExists</name>
+        <full_name>testIfChristmasTreeExists</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="38" package="Default">
+        <name>provider</name>
+        <full_name>provider</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="48" package="Default">
+        <name>testFalse</name>
+        <full_name>testFalse</full_name>
+        <docblock line="44">
+          <description></description>
+          <long-description></long-description>
+          <tag line="44" name="dataProvider" description="provider"/>
+          <tag line="44" name="param" description="" type="\unknown_type" variable="$provider">
+            <type by_reference="false">\unknown_type</type>
+          </tag>
+        </docblock>
+        <argument line="48">
+          <name>$provider</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file tests\ChristmasTreeTest.php</error>
+      <critical line="6" code="50005">No short description for class \ChristmasTreeTest</critical>
+      <error line="13" code="50018">No DocBlock was found for property $backupGlobalsBlacklist</error>
+      <error line="25" code="50018">No DocBlock was found for property $_christmasTree</error>
+      <error line="27" code="50010">No DocBlock was found for method setUp()</error>
+      <error line="33" code="50010">No DocBlock was found for method testIfChristmasTreeExists()</error>
+      <error line="38" code="50010">No DocBlock was found for method provider()</error>
+      <error line="44" code="50012">No short description for method testFalse()</error>
+    </parse_markers>
+  </file>
+  <file path="tests\TreeDecoratorTest.php" hash="d7921ac1430bc3ce4df6f7200cc8e868" package="Default">
+    <include line="6" type="Require Once" package="Default">
+      <name>C:\xampp\htdocs\ChristmasTree\tests\TreeDecoratorTest.php</name>
+    </include>
+    <include line="7" type="Require Once" package="Default">
+      <name>C:\xampp\htdocs\ChristmasTree\ChristmasTree.php</name>
+    </include>
+    <include line="8" type="Require Once" package="Default">
+      <name>C:\xampp\htdocs\ChristmasTree\ChristmassTreeWithLigths.php</name>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="16" package="Default">
+      <extends>\PHPUnit_Framework_TestCase</extends>
+      <name>TreeDecoratorTest</name>
+      <full_name>\TreeDecoratorTest</full_name>
+      <docblock line="13">
+        <description></description>
+        <long-description></long-description>
+        <tag line="13" name="backupGlobals" description="disabled"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="18" namespace="global" package="Default">
+        <name>$_christmasTree</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="19" namespace="global" package="Default">
+        <name>$_decorator</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="private" line="20" namespace="global" package="Default">
+        <name>$_reflection</name>
+        <default></default>
+      </property>
+      <property final="false" static="false" visibility="protected" line="21" namespace="global" package="Default">
+        <name>$backupGlobalsBlacklist</name>
+        <default>array('_CONSOLE_COLOR_CODES', '_ENV', '_POST', '_GET', '_COOKIE', '_SERVER', '_FILES', '_REQUEST')</default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="34" package="Default">
+        <name>setUp</name>
+        <full_name>setUp</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="49" package="Default">
+        <name>testIfDecoratorExists</name>
+        <full_name>testIfDecoratorExists</full_name>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="54" package="Default">
+        <name>testIfGetDescriptionFunctionExists</name>
+        <full_name>testIfGetDescriptionFunctionExists</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file tests\TreeDecoratorTest.php</error>
+      <critical line="13" code="50005">No short description for class \TreeDecoratorTest</critical>
+      <error line="18" code="50018">No DocBlock was found for property $_christmasTree</error>
+      <error line="19" code="50018">No DocBlock was found for property $_decorator</error>
+      <error line="20" code="50018">No DocBlock was found for property $_reflection</error>
+      <error line="21" code="50018">No DocBlock was found for property $backupGlobalsBlacklist</error>
+      <error line="34" code="50010">No DocBlock was found for method setUp()</error>
+      <error line="49" code="50010">No DocBlock was found for method testIfDecoratorExists()</error>
+      <error line="54" code="50010">No DocBlock was found for method testIfGetDescriptionFunctionExists()</error>
+    </parse_markers>
+  </file>
+  <file path="Tree.php" hash="60d8a495fa7a7e98077f5ff24a78323a" package="Default">
+    <class final="false" abstract="true" namespace="global" line="4" package="Default">
+      <extends/>
+      <implements>\ChristmasTreeInterface</implements>
+      <name>Tree</name>
+      <full_name>\Tree</full_name>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="6" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file Tree.php</error>
+      <error line="4" code="50000">No DocBlock was found for \Tree</error>
+      <error line="6" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="TreeDecorator.php" hash="9c64eea2700f634352e13f2d33af0dbc" package="Default">
+    <include line="3" type="Require Once" package="Default">
+      <name>ChristmasTreeInterface.php</name>
+    </include>
+    <include line="4" type="Require Once" package="Default">
+      <name>Tree.php</name>
+    </include>
+    <class final="false" abstract="true" namespace="global" line="6" package="Default">
+      <extends/>
+      <implements>\ChristmasTreeInterface</implements>
+      <name>TreeDecorator</name>
+      <full_name>\TreeDecorator</full_name>
+      <property final="false" static="false" visibility="protected" line="9" namespace="global" package="Default">
+        <name>$_tree</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="12" package="Default">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <argument line="12">
+          <name>$tree</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="17" package="Default">
+        <name>getDescription</name>
+        <full_name>getDescription</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file TreeDecorator.php</error>
+      <error line="6" code="50000">No DocBlock was found for \TreeDecorator</error>
+      <error line="9" code="50018">No DocBlock was found for property $_tree</error>
+      <error line="12" code="50010">No DocBlock was found for method __construct()</error>
+      <error line="17" code="50010">No DocBlock was found for method getDescription()</error>
+    </parse_markers>
+  </file>
+  <file path="TreeTests\NodeTest.php" hash="c78c63d5a6b8f7a0bee76558a3b11d91" package="Default">
+    <class final="false" abstract="false" namespace="global" line="2" package="Default">
+      <extends>\PHPUnit_Framework_TestCase</extends>
+      <name>NodeTest</name>
+      <full_name>\NodeTest</full_name>
+      <property final="false" static="false" visibility="private" line="5" namespace="global" package="Default">
+        <name>$_node</name>
+        <default></default>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="7" package="Default">
+        <name>setUp</name>
+        <full_name>setUp</full_name>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="50007">No page-level DocBlock was found in file TreeTests\NodeTest.php</error>
+      <error line="2" code="50000">No DocBlock was found for \NodeTest</error>
+      <error line="5" code="50018">No DocBlock was found for property $_node</error>
+      <error line="7" code="50010">No DocBlock was found for method setUp()</error>
+    </parse_markers>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <namespace name="global" full_name="global"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>

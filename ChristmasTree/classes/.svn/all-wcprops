@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reps/phpproject/!svn/ver/105/ChristmasTree/classes
+END
+OperationNodeIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/OperationNodeIterator.php
+END
+Strategy_Mul.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Strategy_Mul.php
+END
+CustomTreeIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reps/phpproject/!svn/ver/95/ChristmasTree/classes/CustomTreeIterator.php
+END
+TreeElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/TreeElement.php
+END
+RecursiveIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reps/phpproject/!svn/ver/95/ChristmasTree/classes/RecursiveIterator.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Node.php
+END
+TreeRecursiveIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reps/phpproject/!svn/ver/100/ChristmasTree/classes/TreeRecursiveIterator.php
+END
+Strategy_Div.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Strategy_Div.php
+END
+MathTree.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/MathTree.php
+END
+Printable.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Printable.php
+END
+Operation.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Operation.php
+END
+TreeIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/TreeIterator.php
+END
+AbstractIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reps/phpproject/!svn/ver/100/ChristmasTree/classes/AbstractIterator.php
+END
+Strategy.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Strategy.php
+END
+Strategy_Sub.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Strategy_Sub.php
+END
+Strategy_Add.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reps/phpproject/!svn/ver/110/ChristmasTree/classes/Strategy_Add.php
+END

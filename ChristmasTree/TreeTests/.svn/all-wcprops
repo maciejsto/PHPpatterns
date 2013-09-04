@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/reps/phpproject/!svn/ver/105/ChristmasTree/TreeTests
+END
+BootLoaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/BootLoaderTest.php
+END
+MathTreeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/MathTreeTest.php
+END
+PrintableTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/PrintableTest.php
+END
+OperationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/OperationTest.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/phpunit.xml
+END
+IteratorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/IteratorTest.php
+END
+StrategyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/StrategyTest.php
+END
+Strategy_AddTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/Strategy_AddTest.php
+END
+OperationNodeIteratorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/OperationNodeIteratorTest.php
+END
+Strategy_MulTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/Strategy_MulTest.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/composer.json
+END
+composer.lock
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/composer.lock
+END
+TreeElementTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/TreeElementTest.php
+END
+NodeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/NodeTest.php
+END
+AutoloaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/AutoloaderTest.php
+END

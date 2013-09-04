@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/LICENSE
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/.gitignore
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/composer.json
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/README.markdown
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/reps/phpproject/!svn/ver/110/ChristmasTree/TreeTests/vendor/mockery/mockery/package.xml
+END

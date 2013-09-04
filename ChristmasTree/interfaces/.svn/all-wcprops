@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/reps/phpproject/!svn/ver/99/ChristmasTree/interfaces
+END
+StrategyInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reps/phpproject/!svn/ver/96/ChristmasTree/interfaces/StrategyInterface.php
+END
+NodeInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reps/phpproject/!svn/ver/95/ChristmasTree/interfaces/NodeInterface.php
+END
+ChristmasTreeInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/reps/phpproject/!svn/ver/82/ChristmasTree/interfaces/ChristmasTreeInterface.php
+END
+MathOperationInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/reps/phpproject/!svn/ver/96/ChristmasTree/interfaces/MathOperationInterface.php
+END
+TreeInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reps/phpproject/!svn/ver/99/ChristmasTree/interfaces/TreeInterface.php
+END
+IteratorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reps/phpproject/!svn/ver/83/ChristmasTree/interfaces/IteratorInterface.php
+END
+TreeElementInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/reps/phpproject/!svn/ver/96/ChristmasTree/interfaces/TreeElementInterface.php
+END

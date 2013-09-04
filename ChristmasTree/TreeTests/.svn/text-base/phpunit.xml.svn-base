@@ -1,0 +1,28 @@
+<phpunit bootstrap="vendor/autoload.php"
+
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+ 
+
+
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+  
+ >
+         
+
+         <testsuites>
+  			<testsuite name="My Test Suite">
+    			<directory suffix="Test.php">../TreeTests</directory>
+<!-- 				<file>../TreeTests/AutoloaderTest.php</file> -->
+  				</testsuite>
+		</testsuites>
+         
+         
+
+</phpunit>
