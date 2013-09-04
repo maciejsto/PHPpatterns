@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reps/phpproject/!svn/ver/115/MyFramework/tests/vendor/composer
+END
+autoload_real.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/reps/phpproject/!svn/ver/265/MyFramework/tests/vendor/composer/autoload_real.php
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/reps/phpproject/!svn/ver/115/MyFramework/tests/vendor/composer/ClassLoader.php
+END
+autoload_classmap.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reps/phpproject/!svn/ver/265/MyFramework/tests/vendor/composer/autoload_classmap.php
+END
+autoload_namespaces.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/reps/phpproject/!svn/ver/115/MyFramework/tests/vendor/composer/autoload_namespaces.php
+END
