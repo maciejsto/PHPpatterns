@@ -10,8 +10,30 @@ class CarController
         return true;
     }
     
-    function goForward(Electronics $electronics)
+    function goForward(Electronics $electronics, StatusPanel $statusPanel = null)
     {
-        $statusPanel = new StatusPanel();
+        $statusPanel = $statusPanel ? : new StatusPanel();
+        if($statusPanel->engineIsRunning() && $statusPanel->thereIsEnaughFuel())
+        {
+            $electronics->accelerate();
+        }
+        return $statusPanel->engineIsRunning();
     }
+    
+    
+    function pushBreaks($breakingPower, Electronics $electronics, StatusPanel $statusPanel = null)
+    {
+        $statusPanel = $statusPanel ? : new StatusPanel();
+        $electronics->pushBreaks($breakingPower);
+        $statusPanel->getSpeed();
+    }
+    
+    function stop($breakingPower, Electronics $electronics, StatusPanel $statusPanel = null)
+    {
+        $statusPanel = $statusPanel ? : new StatusPanel();
+        $electronics->pushBreaks($breakingPower);
+        $statusPanel->thereIsEnaughFuel();
+        if($statusPanel->getSpeed()) $this->stop($breakingPower, $electronics, $statusPanel);
+    }
+    
 }
