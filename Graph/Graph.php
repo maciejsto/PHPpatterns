@@ -19,8 +19,18 @@ class Graph
     
     public function breathFirstSearch($source, $destination){
         if (empty($source) or empty($destination)) return;
+        
         foreach ($this->_graph as $key => $value) {
-            //TODO ;
+                $this->_visited[$key] = false;
         }
+        
+        //create empty queue
+        $q = new SplQueue();
+        $q->enqueue($source);
+        $this->_visited[$source] = true;
+        
+        //track path 
+        $path = array();
+        
     }
 }
